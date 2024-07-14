@@ -11,7 +11,7 @@ const app = express();
 
 const PORT = process.env.PORT || 5002;
 const corsOptions = {
-  origin: 'https://hindi-brainvoyage.vercel.app/', // Replace with your actual Vercel frontend URL
+  origin: 'https://mindscape-two.vercel.app/', // Replace with your actual Vercel frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204
