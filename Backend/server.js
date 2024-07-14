@@ -10,10 +10,18 @@ const errorHandler = require('./controllers/errroMiddleware')
 const app = express();
 
 const PORT = process.env.PORT || 5002;
+const corsOptions = {
+  origin: 'https://hindi-brainvoyage.vercel.app/', // Replace with your actual Vercel frontend URL
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+  optionsSuccessStatus: 204
+};
+
+app.use(cors(corsOptions));
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:false})); 
 
