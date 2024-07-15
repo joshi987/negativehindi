@@ -3,6 +3,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Logo from '../assets/img/Brain.png';
 import Boy from '../assets/img/boy.png';
 import Girl from '../assets/img/girl.png';
+import Form from './Form';
+
 
 const Header = () => {
  
@@ -24,6 +26,7 @@ const Header = () => {
             क्या डिजिटल विकर्षण आपके बच्चे के ध्यान और दिमागी विकास को नुकसान पहुंचा रहे हैं?
             </h1>
           </div>
+<Form/>
         </div>
       </>
     </HelmetProvider>
