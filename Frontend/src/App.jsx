@@ -20,8 +20,8 @@ function App() {
         <Video />
         <Fomomessage />
       <Formslogans/>
-        <Form />
-        <BlogGrid />
+        {/* <Form />
+        <BlogGrid /> */}
         <div className="mb-8">
     </div>
     

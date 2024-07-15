@@ -5,28 +5,28 @@ import Boy from '../assets/img/boy.png';
 import Girl from '../assets/img/girl.png';
 import Form from './Form';
 
-
 const Header = () => {
- 
   return (
     <HelmetProvider>
       <>
-        <Helmet>
-          <title>Mind Scape</title>
-          <meta name="description" content="Engaging activities designed to improve focus, memory, and cognitive skills in kids" />
-          <meta name="keywords" content="Brain Voyage, kids learning, cognitive skills, educational activities, improve focus, memory, learning fun" />
-          <meta name="author" content="Mind Scape"/>
-        </Helmet>
-
         {/* Header Section */}
-        <div className="relative flex flex-col items-center justify-center inset-0">
-          <div className="flex items-center space-x-2 md:space-x-4">
-            <img src={Logo} alt="QuizQuest Logo" className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40" />
-            <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-900 via-red-800 to-yellow-900 md:text-2xl lg:text-2xl text-center shadow-lg">
-            क्या डिजिटल विकर्षण आपके बच्चे के ध्यान और दिमागी विकास को नुकसान पहुंचा रहे हैं?
-            </h1>
+        <div className="top-0 z-50 bg-white shadow-md h-20 md:h-24 lg:h-28 flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-12">
+          <div className="flex items-center space-x-2 md:space-x-4 lg:space-x-6 flex-grow">
+            <img src={Logo} alt="QuizQuest Logo" className="w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32" />
+           
+            <div className="flex-grow text-center">
+              <h1 className="text-xs font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-900 via-red-800 to-yellow-900 md:text-sm lg:text-md text-center shadow-lg">
+              क्या डिजिटल विकर्षण आपके बच्चे के ध्यान और दिमागी विकास को नुकसान पहुंचा रहे हैं?
+              </h1>
+            </div>
+            {/* <img src={Girl} alt="Girl" className="hidden md:block w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16" /> Hide on small screens */}
           </div>
-<Form/>
+          <div className="hidden md:block md:ml-4 lg:ml-6">
+            <Form />
+          </div>
+        </div>
+        <div className="block md:hidden mt-4">
+          <Form />
         </div>
       </>
     </HelmetProvider>
