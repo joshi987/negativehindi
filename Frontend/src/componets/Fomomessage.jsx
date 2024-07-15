@@ -12,7 +12,7 @@ function Fomomessage() {
             मानसिक ताकत को नजरअंदाज करने के खतरे
           </h2>
           <p className="font-semibold text-sm md:text-lg leading-relaxed mb-4 text-gray-700">
-            आज की तेज़-तर्रार डिजिटल दुनिया में, बच्चों की ध्यान केंद्रित करने
+            आज की तेज़-तर्रार डिजिटल दुनिया में, <a href="https://mindscape-two.vercel.app/">बच्चों</a> की ध्यान केंद्रित करने
             और गंभीर रूप से सोचने की क्षमता अक्सर खतरे में पड़ जाती है। इन
             चुनौतियों की उपेक्षा करने से लंबे समय तक संज्ञानात्मक घाटे और खराब
             शैक्षणिक प्रदर्शन हो सकता है।
@@ -30,9 +30,9 @@ function Fomomessage() {
         <div className="flex flex-col justify-center mb-4 md:mb-0 md:order-1 w-full md:w-1/2">
           <h3 className="text-xl md:text-2xl font-semibold mb-2 text-indigo-600">लाभ</h3>
           <p className="font-semibold text-sm md:text-lg leading-relaxed mb-4 text-gray-700">
-            1. बढ़ी हुई मेमोरी: इंटरैक्टिव गेम जो मेमोरी रिटेंशन को बढ़ावा देते हैं<br />
-            2. बेहतर फोकस: मजेदार गतिविधियां जो धीरे-धीरे फोकस अवधि को बढ़ाती हैं<br />
-            3. गंभीर सोच: पहेलियाँ और चुनौतियाँ जो समस्या-समाधान कौशल विकसित करती हैं
+            1. <a href="https://mindscape-two.vercel.app/" >बढ़ी हुई मेमोरी</a>: इंटरैक्टिव गेम जो मेमोरी रिटेंशन को बढ़ावा देते हैं<br />
+            2. <a href="https://mindscape-two.vercel.app/" >बेहतर फोकस</a>: मजेदार गतिविधियां जो धीरे-धीरे फोकस अवधि को बढ़ाती हैं<br />
+            3. <a href="https://mindscape-two.vercel.app/" >गंभीर सोच</a>: पहेलियाँ और चुनौतियाँ जो समस्या-समाधान कौशल विकसित करती हैं
           </p>
         </div>
         <div className="flex justify-center items-center md:order-2 w-full md:w-1/2">
