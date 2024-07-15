@@ -1114,7 +1114,7 @@ const Form = () => {
           )}
         </div>
       )}
-      <ToastContainer />
+      <ToastContainer autoClose={3000}  />
     </div>
   );
 };
